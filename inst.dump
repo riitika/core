@@ -1,0 +1,17 @@
+
+inst.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	e3a00014 	mov	r0, #20
+   4:	e280000a 	add	r0, r0, #10
+   8:	e2410005 	sub	r0, r1, #5
+   c:	e0810003 	add	r0, r1, r3
+  10:	e3a00014 	mov	r0, #20
+  14:	e3a0100a 	mov	r1, #10
+  18:	e0821003 	add	r1, r2, r3
+  1c:	e0832003 	add	r2, r3, r3
+  20:	e0421003 	sub	r1, r2, r3
+  24:	e0831003 	add	r1, r3, r3
